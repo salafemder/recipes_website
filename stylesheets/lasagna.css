@@ -1,0 +1,14 @@
+body{
+    background-color: pink;
+}
+
+.header{
+    color: darkgreen;
+    text-decoration:underline;
+}
+
+img{
+    border-radius: 24px;
+    border-style: double;
+    border-color: darkgreen;
+}
