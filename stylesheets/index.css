@@ -1,12 +1,48 @@
 body{
     background-color: pink;
+    margin:0;
+    box-sizing: border-box;
+    width: 800px;
 }
 
 h1{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: darkgreen;
+    color: pink;
+}
+
+.header{
+    display: block;
+    text-align: center;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 38px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 192, 203);
+}
+
+.headercolor{
+    background-color: darkgreen;
+    margin: auto;
+    padding: 25px;
+    width: 100vw;
+}
+
+.transition{
+    background: linear-gradient(0deg,pink, darkgreen 80%);
+    width: 100vw;
+    height: 50px;
+    margin-bottom:50px;
 }
 
 li{
     color: darkgreen;
+    width: 150px;
+    padding: 8px;
+    border: 2px solid darkgreen;
+    margin-bottom:12px;
+    text-align: center;
 }
